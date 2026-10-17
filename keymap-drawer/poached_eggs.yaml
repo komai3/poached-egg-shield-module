@@ -131,8 +131,8 @@ layers:
   - F5
   - Ctl+Sft+D
   - DEL
-  - {t: Q, h: LSHIFT}
-  - {t: Ctl+S, h: LALT}
+  - LSHIFT
+  - LALT
   - LEFT ARROW
   - KP NUM
   - _
@@ -255,3 +255,10 @@ layers:
   - {t: ∅, type: none}
   - {t: ∅, type: none}
   - {t: ∅, type: none}
+combos:
+- p: [4, 3]
+  k: Q
+  l: [clip/num]
+- p: [15, 16]
+  k: Ctl+S
+  l: [clip/num]

@@ -697,13 +697,11 @@ text.trans { fill: #3f72c4; opacity: 0.95; }
 </g>
 <g transform="translate(270, 150)" class="key keypos-28">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
-<text x="0" y="0" class="key tap">Q</text>
-<text x="0" y="26" class="key hold">LSHIFT</text>
+<text x="0" y="0" class="key tap">LSHIFT</text>
 </g>
 <g transform="translate(330, 150)" class="key keypos-29">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
-<text x="0" y="0" class="key tap">Ctl+S</text>
-<text x="0" y="26" class="key hold">LALT</text>
+<text x="0" y="0" class="key tap">LALT</text>
 </g>
 <g transform="translate(510, 150)" class="key keypos-30">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
@@ -808,6 +806,14 @@ text.trans { fill: #3f72c4; opacity: 0.95; }
 <text x="0" y="0" class="key tap">
 <tspan x="0" dy="-0.6em">KP</tspan><tspan x="0" dy="1.2em">ENTER</tspan>
 </text>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="226" y="17" width="28" height="26" class="combo"/>
+<text x="240" y="30" class="combo tap">Q</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="226" y="77" width="28" height="26" class="combo"/>
+<text x="240" y="90" class="combo tap">Ctl+S</text>
 </g>
 </g>
 </g>
