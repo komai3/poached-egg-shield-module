@@ -20,6 +20,21 @@
             bindings = <&kp LANG1>, <&to 3>;
         };
     };
+    combos {
+        compatible = "zmk,combos";
+
+        Q {
+            bindings = <&kp Q>;
+            key-positions = <4 3>;
+            layers = <2>;
+        };
+
+        Ctrl_S {
+            bindings = <&kp LC(S)>;
+            key-positions = <15 16>;
+            layers = <2>;
+        };
+    };
     macros {
         ctrl_z: ctrl_z {
             compatible = "zmk,behavior-macro";
@@ -56,7 +71,7 @@
             bindings = <
                 &kp GRAVE               &kp J                   &kp G                   &kp E                   &ctrl_z                 &kp P                   &kp LEFT_BRACKET        &kp KP_SLASH            &kp KP_PLUS             &kp KP_NUMBER_7         &kp KP_NUMBER_8         &kp KP_NUMBER_9
                 &mo 4                   &kp W                   &kp LC(D)               &kp M                   &kp F4                  &kp C                   &kp RIGHT_BRACKET       &kp KP_ASTERISK         &kp KP_MINUS            &kp KP_NUMBER_4         &kp KP_NUMBER_5         &kp KP_NUMBER_6
-                &kp LC(B)               &kp F5                  &kp LC(LS(D))           &kp DEL                 &mt LSHIFT Q            &mt LALT LC(S)          &kp LEFT_ARROW          &kp KP_NUM              &kp UNDER               &kp KP_NUMBER_1         &kp KP_NUMBER_2         &kp KP_NUMBER_3
+                &kp LC(B)               &kp F5                  &kp LC(LS(D))           &kp DEL                 &kp LSHIFT              &kp LALT                &kp LEFT_ARROW          &kp KP_NUM              &kp UNDER               &kp KP_NUMBER_1         &kp KP_NUMBER_2         &kp KP_NUMBER_3
                 &kp O                   &kp D                   &kp LC(LS(I))           &kp LC(KP_NUMBER_0)     &kp SPACE               &kp LCTRL               &kp Z                   &to 0                   &kp RIGHT_ARROW         &none                   &kp BSPC                &kp KP_NUMBER_0         &kp KP_DOT              &kp KP_ENTER
             >;
         };
